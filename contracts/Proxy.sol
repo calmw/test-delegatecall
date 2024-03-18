@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 contract Proxy {
     constructor() {}
 
-    // 代理合约中不能写逻辑，否侧逻辑合约变量不生效
 //    function readStorageSlot0() public view returns (uint256 result) {
 //        assembly {
 //            result := sload(0)
